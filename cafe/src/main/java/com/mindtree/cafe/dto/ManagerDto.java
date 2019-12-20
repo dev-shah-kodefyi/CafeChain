@@ -8,9 +8,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 public class ManagerDto implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = -6431168011471334362L;
 	private int mid;
 	private String name;
@@ -19,7 +16,7 @@ public class ManagerDto implements Serializable {
 	 List<CafeDto> cafelist=new ArrayList<>();
 	public ManagerDto() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public ManagerDto(int mid, String name, int salary, List<CafeDto> cafelist) {
 		super();
