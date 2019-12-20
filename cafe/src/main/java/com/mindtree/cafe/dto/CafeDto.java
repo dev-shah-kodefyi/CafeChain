@@ -10,7 +10,7 @@ public class CafeDto implements Serializable {
 	private ManagerDto manager;
 	public CafeDto() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public CafeDto(int id, String name, int revenue, ManagerDto manager) {
 		super();

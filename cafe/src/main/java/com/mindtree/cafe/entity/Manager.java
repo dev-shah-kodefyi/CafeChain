@@ -25,7 +25,7 @@ public class Manager {
 
 	public Manager() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public Manager(int mid, String name, int salary, List<Cafe> cafelist) {
