@@ -14,10 +14,10 @@ public class CafeDto implements Serializable {
 	}
 	public CafeDto(int id, String name, int revenue, ManagerDto manager) {
 		super();
-		this.id = id;
-		this.name = name;
-		this.revenue = revenue;
-		this.manager = manager;
+//		this.id = id;
+//		this.name = name;
+//		this.revenue = revenue;
+//		this.manager = manager;
 	}
 	public int getId() {
 		return id;
