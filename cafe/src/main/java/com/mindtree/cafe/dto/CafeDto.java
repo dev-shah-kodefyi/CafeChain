@@ -4,6 +4,10 @@ import java.io.Serializable;
 
 public class CafeDto implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3028151735350330579L;
 	private int id;
 	private String name;
 	private int revenue;
