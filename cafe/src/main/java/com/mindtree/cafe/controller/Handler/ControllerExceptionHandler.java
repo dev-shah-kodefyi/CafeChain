@@ -13,6 +13,7 @@ public class ControllerExceptionHandler {
 
 @ExceptionHandler(ServiceException.class)
 	public ResponseEntity<ExceptionDto> serviceExceptionHandler(Exception e, Throwable cause){
+		System.out.println("hello");
 		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ExceptionDto(e.getMessage()));
 	}
 }
